@@ -48,7 +48,7 @@ An execution protocol is a job description for an AI agent: what to build, how i
 
 **No filler**
 - Cut: "Prefer working software over perfection", "Start simple", "Future integrations"
-- Components say what to build; Build Order says when. Don't duplicate.
+- Components say what to build. Build Order says when. Don't duplicate.
 
 ---
 
