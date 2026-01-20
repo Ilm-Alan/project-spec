@@ -9,11 +9,11 @@ A job description for an AI agent: what to build, how it fits together, when it'
 
 ## Process
 
-1. **Explore**: If a project exists, check context—files, docs, commits, patterns.
-2. **Ask**: Ask many questions (multiple choice when possible) until you can fill every protocol section. Learn: what's being built, why, for whom, technical approach, constraints, what "done" looks like. The more you learn now, the more autonomous the executing agent can be.
+1. **Explore**: Check context—files, docs, commits, patterns.
+2. **Ask**: Ask many questions (multiple choice when possible) until you can fill every protocol section.
 3. **Approaches**: If multiple valid paths exist, present 2-3 options. Lead with your recommendation.
 4. **Derive**: Map conversation to protocol sections:
-   - Instructions ← standard (see Protocol Structure)
+   - Instructions ← below
    - Mission ← what + why + who
    - Architecture ← technical choices from Ask and Approaches
    - Components ← breaking down the system
@@ -24,14 +24,14 @@ A job description for an AI agent: what to build, how it fits together, when it'
 
 ## Protocol Structure (under 100 lines)
 
-**Instructions** (how the agent operates autonomously):
+**Instructions**:
 - Read PROGRESS.md to know what's done, check git log for context
 - Build the next incomplete phase—do not ask what to work on
 - Make decisions from existing code patterns
 - Update PROGRESS.md when done, continue to next phase
 - No clarifying questions—ship working features
 
-**Mission**: 1-3 lines. "Your job is to..." + target users + why it matters.
+**Mission**: 1-3 lines. What, who, why.
 
 **Architecture**: Technical decisions stated, not debated.
 
