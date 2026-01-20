@@ -11,8 +11,8 @@ An execution protocol is a job description for an AI agent: what to build, how i
 
 ## Process
 
-1. **Explore**: If a project exists, check context—files, docs, recent commits, patterns.
-2. **Ask**: Multiple choice when possible. Learn: what's being built, why it matters, target users, technical approach, constraints, what "done" looks like. Stop when you can fill every protocol section.
+1. **Explore**: If a project exists, check context—files, docs, recent commits, patterns. Infer as much as possible before asking.
+2. **Ask**: Only what you can't infer. Multiple choice when possible. Learn: what's being built, why it matters, target users, technical approach, constraints, what "done" looks like. Stop when you can fill every protocol section. The resulting protocol must enable autonomous execution—the agent will not ask questions while building.
 3. **Approaches**: If multiple valid paths exist, present 2-3 options. Lead with your recommendation. Options are for the conversation—the final protocol states one decision.
 4. **Derive**: From the conversation, work out the protocol sections:
    - Instructions ← standard (see Protocol Structure)
@@ -30,7 +30,7 @@ An execution protocol is a job description for an AI agent: what to build, how i
 
 ## Protocol Structure (under 100 lines)
 
-- **Instructions**: How the agent operates. Read PROGRESS.md first, update it when work completes. Commit after each file change. Check git log for recent work. Only read files relevant to current task.
+- **Instructions**: How the agent operates autonomously. Must include: read PROGRESS.md to know what's done, check git log for context, then build the next incomplete phase without asking. Make decisions based on existing code patterns. Update PROGRESS.md when work completes and continue to the next phase. No clarifying questions—inspect the code, make reasonable choices, ship working features.
 - **Mission**: 1-3 lines. Job framing ("Your job is to..."), target users, why it matters.
 - **Architecture**: How it fits together. Key technical decisions stated, not debated.
 - **Components**: What to build. One line each—name and essence.
@@ -54,7 +54,9 @@ An execution protocol is a job description for an AI agent: what to build, how i
 
 ## Finish Checklist
 
-- Do Instructions tell the agent how to operate across sessions?
+- Do Instructions tell the agent to build autonomously without asking questions?
+- Do Instructions say to read PROGRESS.md, check git log, then build the next incomplete phase?
+- Do Instructions say to make decisions from code patterns and ship working features?
 - Can someone read Mission and know exactly what they're building and for whom?
 - Are technical choices in Architecture stated, not listed as options?
 - Is each Component one line—name and essence?

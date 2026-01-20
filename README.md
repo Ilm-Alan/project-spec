@@ -64,7 +64,7 @@ Every generated protocol contains:
 
 | Section | Purpose |
 |---------|---------|
-| **Instructions** | How the agent operates across sessions (PROGRESS.md, git log, file scope) |
+| **Instructions** | How the agent operates autonomously—build without asking, make decisions from code |
 | **Mission** | What + why + who in 1-3 lines |
 | **Architecture** | Technical decisions stated, not debated |
 | **Components** | What to build—one line each |
@@ -99,7 +99,7 @@ What does "done" look like?
 **Output (PLAN.md):**
 ```markdown
 ## Instructions
-Read PROGRESS.md first, update it when work completes. Check git log for recent work. Only read files relevant to current task.
+Read PROGRESS.md to know what's done. Check git log for context. Build the next incomplete phase—do not ask what to work on. Make decisions from existing code patterns. Update PROGRESS.md when done and continue to next phase. No clarifying questions—inspect code, make reasonable choices, ship working features.
 
 ## Mission
 Your job is to build a CLI tool for rotating AWS access keys. For DevOps engineers managing multiple AWS accounts. Eliminates manual key rotation and reduces security risk from stale credentials.
