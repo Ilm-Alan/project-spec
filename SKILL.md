@@ -14,12 +14,12 @@ A job description for an AI agent: what to build, how it fits together, when it'
 3. **Approaches**: If multiple valid paths exist, present 2-3 options. Lead with your recommendation.
 4. **Derive**: Map conversation to protocol sections:
    - Mission: What, who, why
-   - Architecture: technical decisions
-   - Components: what to build
-   - Constraints: non-negotiables
-   - Build Order: sequence
-   - Done When: success criteria
-5. **Write**: Draft the protocol. Output to `PLAN.md`. Create `PROGRESS.md` with completed/remaining work.
+   - Architecture: Technical decisions
+   - Components: What to build
+   - Constraints: Non-negotiables
+   - Build Order: Sequence
+   - Done When: Success criteria
+5. **Write**: Output `PLAN.md`. Create `PROGRESS.md` with completed/remaining work.
 
 ## Protocol Structure (under 100 lines)
 
