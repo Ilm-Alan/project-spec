@@ -11,8 +11,8 @@ An execution protocol is a job description for an AI agent: what to build, how i
 
 ## Process
 
-1. **Explore**: If a project exists, check context—files, docs, recent commits, patterns. Infer as much as possible before asking.
-2. **Ask**: Only what you can't infer. Multiple choice when possible. Learn: what's being built, why it matters, target users, technical approach, constraints, what "done" looks like. Stop when you can fill every protocol section. The resulting protocol must enable autonomous execution—the agent will not ask questions while building.
+1. **Explore**: If a project exists, check context—files, docs, recent commits, patterns.
+2. **Ask**: Ask many questions—multiple choice when possible. Learn: what's being built, why it matters, target users, technical approach, constraints, what "done" looks like. Keep asking until you can fill every protocol section with confidence. The more you learn now, the more autonomous the executing agent can be.
 3. **Approaches**: If multiple valid paths exist, present 2-3 options. Lead with your recommendation. Options are for the conversation—the final protocol states one decision.
 4. **Derive**: From the conversation, work out the protocol sections:
    - Instructions ← standard (see Protocol Structure)
