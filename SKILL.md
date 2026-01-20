@@ -25,9 +25,10 @@ A job description for an AI agent: what to build, how it fits together, when it'
 
 **Instructions**:
 - Read PROGRESS.md to know what's done, check git log for context
-- Build the next incomplete phase—do not ask what to work on
+- Build the next incomplete component—do not ask what to work on
 - Make decisions from existing code patterns
-- Update PROGRESS.md when done, continue to next phase
+- Commit at natural breakpoints (working feature, component done, test passing)
+- Update PROGRESS.md after each commit, continue to next component
 - No clarifying questions—ship working features
 
 **Mission**: 1-3 lines. What, who, why.
@@ -38,7 +39,7 @@ A job description for an AI agent: what to build, how it fits together, when it'
 
 **Constraints**: Non-negotiables only.
 
-**Build Order**: Sequenced phases. Names only.
+**Build Order**: Components in dependency sequence.
 
 **Done When**: Concrete, testable acceptance criteria.
 
