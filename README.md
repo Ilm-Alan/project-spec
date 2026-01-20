@@ -130,3 +130,7 @@ Go binary. AWS SDK for credential operations. Viper for config. No database—us
 ## License
 
 MIT. See [LICENSE.txt](LICENSE.txt).
+
+## Guidance
+
+Perfection is a continual process.
