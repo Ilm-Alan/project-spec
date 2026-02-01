@@ -19,18 +19,18 @@ What to build, how it fits together, how to keep going.
    - Constraints: non-negotiables
    - Priorities: current focus
    - Standards: quality bar
-5. **Write**: Output `PLAN.md`. Create `PROGRESS.md` with completed/remaining work.
+5. **Write**: Output `PLAN.md` with spec and progress in one file.
 
 ## Spec Structure (under 100 lines)
 
 **Instructions**:
-- Read PROGRESS.md to know what's done, check git log for context
+- Read Progress section to know what's done, check git log for context
 - Build the next item from Priorities—do not ask what to work on
 - Make decisions from existing code patterns
 - Commit at natural breakpoints (test passing, working feature, integration complete)
-- Update PROGRESS.md after each commit, continue to next item
+- Update Progress section after each commit, continue to next item
 - When priorities clear, surface new work
-- PLAN.md and PROGRESS.md are living documents—update both as work evolves
+- PLAN.md is a living document—update as work evolves
 - No clarifying questions—ship working features
 
 **Mission**: 1-3 lines. What, who, why.
@@ -44,6 +44,8 @@ What to build, how it fits together, how to keep going.
 **Priorities**: Current focus. Replenishes.
 
 **Standards**: Quality bar. Improve over time.
+
+**Progress**: What's done, what's current, what's next. Update after each commit.
 
 ## Writing Principles
 
